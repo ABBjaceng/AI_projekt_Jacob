@@ -6,9 +6,9 @@ Movies är en fil som genererar texter baserat på disney och pixar filmer bland
 Filen Movies är baserad på Train a [GPT-2 Text-Generating Model w/GPU](https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce) av Max Woolf.
 
 
-### Användning
+### Användning och återskapning
 
-Jag har använt Google Colab när jag skrev programet men det går att köra programer i andra IDEer som till exempel Jupyter. öppna programet i den IDE du har valt och följ instruktionerna
+Jag har använt Google Colab när jag skrev programet men det går att köra programer i andra IDEer som till exempel Jupyter. Öppna programet i den IDE du har valt och följ instruktionerna. om du vill ändra de texter som den ska träna på ändra innehållet i scripts eller lägg till en ny fil  men då måste du ändra sökvägen i programet. tänk på att filen med text måste vara i en txt format. om texten eller texterna hu har valt är kortate än min rekomendrer jag att man ökar antalet epoker som den tränar. efterssom det blir mindre träningsdata behöver man träna flera gånger
 
 
 ### Problem
