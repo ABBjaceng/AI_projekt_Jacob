@@ -8,7 +8,7 @@ Filen Movies är baserad på Train a [GPT-2 Text-Generating Model w/GPU](https:/
 
 ### Användning och återskapning
 
-Jag har använt Google Colab när jag skrev programmet men det går att köra programmet i andra IDEer som till exempel Jupyter. Öppna programmet i den IDE du har valt och följ instruktionerna. om du vill ändra de texter som den ska träna på att ändra innehållet i scripts eller lägg till en ny fil men då måste du ändra sökvägen i programmet. tänk på att filen med text måste vara i en .txt format. om texten eller texterna hu har valt är kortade än min rekommenderar jag att man ökar antalet epoker som den tränar. eftersom det blir mindre träningsdata behöver man träna flera gånger
+Jag har använt Google Colab när jag skrev programmet men det går att köra programmet i andra IDEer som till exempel Jupyter. Öppna programmet i den IDE du har valt och följ instruktionerna i filen. Om du vill ändra de texter som programet ska träna på ändrar du innehållet i filen scripts.txt annars kan du lägga till en ny fil men då måste du ändra sökvägen i programmet. Tänk på att filen med text måste vara i .txt format. Om texten eller texterna hu har valt är kortade än min rekommenderar jag att man ökar antalet epoker som den tränar. eftersom det blir mindre träningsdata behöver man träna flera gånger
 
 
 ### Problem
