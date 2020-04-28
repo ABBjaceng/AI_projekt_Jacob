@@ -3,13 +3,15 @@
 ### Beskrivning
 
 Movies är en fil som genererar texter baserat på Disney och Pixar filmer bland annat Shrek, Bee movie och Bilar. För att träna model har jag använt gpt2 och manusen har jag tagit ifrån [The Internet Movie Script Database](https://www.imsdb.com)
-Filen Movies är baserad på Train a [GPT-2 Text-Generating Model w/GPU](https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce) av Max Woolf.
+Filen Movies är baserad på Train a [GPT-2 Text-Generating Model w/GPU](https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce) av Max Woolf. I filen Movies.ipynd kan man träna och generare texter och i MoviesV2.ipynd kan man även produsera en MP3 fil där man får berättelsen uppläst
 
 
 ### Användning och återskapning
 
-Jag har använt Google Colab när jag skrev programmet men det går att köra programmet i andra IDEer som till exempel Jupyter. Öppna programmet i den IDE du har valt och följ instruktionerna i filen. Om du vill ändra de texter som programet ska träna på ändrar du innehållet i filen scripts.txt annars kan du lägga till en ny fil men då måste du ändra sökvägen i programmet. Tänk på att filen med text måste vara i .txt format. Om texten eller texterna hu har valt är kortade än min rekommenderar jag att man ökar antalet epoker som den tränar. eftersom det blir mindre träningsdata behöver man träna flera gånger
+Jag har använt Google Colab när jag skrev programmet men det går att köra programmet i andra IDEer som till exempel Jupyter. Öppna programmet i den IDE du har valt och följ instruktionerna i filen. Om du vill ändra de texter som programet ska träna på ändrar du innehållet i filen scripts.txt annars kan du lägga till en ny fil men då måste du ändra sökvägen i programmet. Tänk på att filen med text måste vara i .txt format. Om texten eller texterna hu har valt är kortade än min rekommenderar jag att man ökar antalet epoker som den tränar. Eftersom det blir mindre träningsdata behöver man träna flera gånger
 
+### Movies V2
+i movies V2 använder jag mig av Google Text To Speech för att kunna generara MP3 filer där en berättaröst berättar berättelsen som programet har skapat
 
 ### Problem
 
